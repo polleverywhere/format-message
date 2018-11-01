@@ -3161,17 +3161,35 @@ indexof@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/indexof/-/indexof-0.0.1.tgz#82dc336d232b9062179d05ab3293a66059fd435d"
 
-inferno-create-element@^5.0.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/inferno-create-element/-/inferno-create-element-5.4.0.tgz#a8653e89c6339a24d3419fece201dfd29fa32167"
+inferno-create-element@^6.1.2:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/inferno-create-element/-/inferno-create-element-6.1.2.tgz#8ee3e9f7600920ed26d221507d06797824f9e4f7"
+  dependencies:
+    inferno "6.1.2"
 
 inferno-shared@5.4.0:
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-5.4.0.tgz#3b903983e253de91512fe825fac280da7818caa1"
 
+inferno-shared@6.1.2:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-6.1.2.tgz#7c58c5c13bbbb6271ca8b18d14a23915a0752117"
+
 inferno-vnode-flags@5.4.0:
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-5.4.0.tgz#7fdcec06a945373c1ed591dd6822581dce501bce"
+
+inferno-vnode-flags@6.1.2:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-6.1.2.tgz#059d510a40ea7ba3cb998e353cd6d984d397a0ad"
+
+inferno@6.1.2:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-6.1.2.tgz#35716a162106a4c931de3174d17a1b4fa71cbb79"
+  dependencies:
+    inferno-shared "6.1.2"
+    inferno-vnode-flags "6.1.2"
+    opencollective "^1.0.3"
 
 inferno@^5.0.0:
   version "5.4.0"
