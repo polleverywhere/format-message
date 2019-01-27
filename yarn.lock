@@ -3171,20 +3171,23 @@ inferno-create-element@^5.0.0:
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/inferno-create-element/-/inferno-create-element-5.4.0.tgz#a8653e89c6339a24d3419fece201dfd29fa32167"
 
-inferno-shared@5.4.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-5.4.0.tgz#3b903983e253de91512fe825fac280da7818caa1"
+inferno-shared@7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-7.1.1.tgz#8a70893f79e8192390d475bc358902a40a3aeda6"
+  integrity sha512-9R7JJYvJ/fHL9zT1uzMPLlZpP6gWGANWbU24G/GK+Whl5jPTS0xSw4taFlCypj/IQ2XgLwHpx327UrNyYFLe4g==
 
-inferno-vnode-flags@5.4.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-5.4.0.tgz#7fdcec06a945373c1ed591dd6822581dce501bce"
+inferno-vnode-flags@7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-7.1.1.tgz#929d7080d914c48bda07a308ef92f816b6624cef"
+  integrity sha512-fwb+BPNQPkjvE7HEap4KcfO8p1W2JrCjuK+wZNn8oWnvQQ+nka+6kGkJf/VZJx18PFGt87dnTCQKFQlj1UXWUA==
 
-inferno@^5.0.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/inferno/-/inferno-5.4.0.tgz#e6e8e39628f3260af6046ffb56ff108da73cc596"
+inferno@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-7.1.1.tgz#8bfef0320aeef87aa42d34d54171fe853cd9e8d9"
+  integrity sha512-cPl0Cj8baf0t8otL9wtkanK+eFJyfb+3wMeHR6RGLm68SVVHtFXoqYKAdXgZP2VA7/z7AVVtoiLVDmKNiu6yVw==
   dependencies:
-    inferno-shared "5.4.0"
-    inferno-vnode-flags "5.4.0"
+    inferno-shared "7.1.1"
+    inferno-vnode-flags "7.1.1"
     opencollective "^1.0.3"
 
 inflight@^1.0.4:
