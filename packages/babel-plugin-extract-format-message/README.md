@@ -55,6 +55,7 @@ require("babel-core").transform("code", {
 * `outFile` is a path (relative to cwd) to the output file containing extracted messages. Defaults to stdout.
 * `format` is a string specifying the target file format. By default the format is inferred from the file extension of `outFile`.
 * `locale` is the BCP 47 Language Tag string specifying the language of the default messages. This is only used in the `yaml` format, to match the Rails conventions. Defaults to `"en"`.
+* `maintainState` boolean option to keep the state between file writes, for builds that take longer than the 200ms file write timeout. Defaults to `false`.
 
 ### Formats
 
